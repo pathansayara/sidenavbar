@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sidebar-parent{
+    width: 100%;
+    background-color: blue;
+    display: flex;
+}
+
+.sidebar{
+    width: 25%;
+    background-color: red;
+    height: 100vh;
+}
+
+.header-parent{
+    width: 75%;
+    background-color: aqua;
+}
+
+
+/* @media (max-width:768px) {
+    .sidebar{
+        display: none;
+    }
+    .header-parent{
+        width: 100%;
+    }
+} */
