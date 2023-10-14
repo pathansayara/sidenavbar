@@ -6,6 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./sidenav.component.css']
 })
 export class SidenavComponent {
-
- 
+  hide:boolean = false
+  toggleTag(){
+  //   if(this.hide === false){
+  //     this.hide = true;
+  //   }
+  //   else{
+  //     this.hide = false
+  //   }
+  this.hide = !this.hide
+  }
 }
